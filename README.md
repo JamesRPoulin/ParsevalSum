@@ -13,3 +13,5 @@ Example: entering "function_of_x_1(2)" outputs "-2 * I * pi * x."
 Example: entering "exact_sum(4, True)" outputs "1/90 * pi^4" in LaTeX format.
 
 "required_function(A, B, C)": input a rational function of n into "A" to determine the function of x such that the sum of |f-hat(n)|^2 over the integers is equal to the integral of |f(x)|^2 over [0,1], but only non-negative or non-positive rational expressions can be handled.  The function defaults the parameter "B" to "True" if no input is given.
+
+[ReadMe under construction.]
