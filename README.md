@@ -14,7 +14,7 @@ A (no default value): Input a number determine the function of x such that the s
 B (False by default): Input "True" to display the function in LaTeX (if your SageMath software supports LaTeX).  Otherwise, "False" displays the function in standard text.
 
 
-Example: entering "required_function_zeta(2)" outputs "-2 * I * pi * x."
+Example: entering "required_function_zeta(2)" outputs "-2*I*pi*x."
 
 
 "SUM_zeta(A, B)":
@@ -48,7 +48,7 @@ B (True by default): "True" displays the decimal approximation of the sum before
 C (False by default): Input "True" to display the sum in LaTeX (if your SageMath software supports LaTeX).  Otherwise, "False" displays the sum in standard text.  To input "True," type "tex = True" or include an explicit input for B.
 
 
-Example: entering "SUM(1/(n^2 + 1))" outputs "3.1533480949371623482681015895000009808913125328076333311501" followed by "pi * (e^(2 * pi) + 1) / (e^(2 * pi) - 1)."
+Example: entering "SUM(1/(n^2 + 1))" outputs "3.1533480949371623482681015895000009808913125328076333311501" followed by "pi*(e^(2*pi) + 1)/(e^(2*pi) - 1)."
 
 
 "required_lin_comb(A, B)":
@@ -58,7 +58,7 @@ A (no default value): Input any rational function of n to find a list (linear co
 B (False by default): Input "True" to display the list in LaTeX (if your SageMath software supports LaTeX).  Otherwise, "False" displays the list in standard text.
 
 
-Example: entering "required_lin_comb(1/(3 * n^3 + 1))" outputs "[1/9/(n^6 + 2/3 * n^3 + 1/9), (1/3 * n^4 + 1/3 * n^3 + 1/3 * n^2)/(n^6 + 2/3 * n^3 + 1/9),  (-1/3 * n^4)/(n^6 + 2/3 * n^3 + 1/9),  (-1/3 * n^2)/(n^6 + 2/3 * n^3 + 1/9)]."
+Example: entering "required_lin_comb(1/(3 * n^3 + 1))" outputs "[1/9/(n^6 + 2/3*n^3 + 1/9), (1/3*n^4 + 1/3*n^3 + 1/3*n^2)/(n^6 + 2/3*n^3 + 1/9),  (-1/3*n^4)/(n^6 + 2/3*n^3 + 1/9),  (-1/3*n^2)/(n^6 + 2/*n^3 + 1/9)]."
 
 
 "SUM_rational_1(A, B, C)":
@@ -70,7 +70,7 @@ B (False by default): Input "True" to display the approximate sum of each non-ne
 C (False by default): Input "True" to display the final sum in LaTeX (if your SageMath software supports LaTeX).  Otherwise, "False" displays the sum in standard text.  To input "True," type "tex = True" or include an explicit input for B.
 
 
-Example: entering "SUM_rational_1(1/(n^2 - 3/2))" outputs "-3.0082248408742298898189201508281522147399096789435318883944" followed by "-1/3 * (2 * (sqrt(3) * sqrt(2) * pi * cos(sqrt(3) * sqrt(2) * pi) - sqrt(3) * sqrt(2) * pi) * cos(2 * sqrt(3) * sqrt(2) * pi) * sin(sqrt(3) * sqrt(2) * pi) - (sqrt(3) * sqrt(2) * pi * cos(sqrt(3) * sqrt(2) * pi)^2 - sqrt(3) * sqrt(2) * pi * sin(sqrt(3) * sqrt(2) * pi)^2 - 2 * sqrt(3) * sqrt(2) * pi * cos(sqrt(3) * sqrt(2) * pi) + sqrt(3) * sqrt(2) * pi) * sin(2 * sqrt(3) * sqrt(2) * pi) - 2 * (sqrt(3) * sqrt(2) * pi * cos(sqrt(3) * sqrt(2) * pi) - sqrt(3) * sqrt(2) * pi) * sin(sqrt(3) * sqrt(2) * pi))/(cos(sqrt(3) * sqrt(2) * pi)^4 + sin(sqrt(3) * sqrt(2) * pi)^4 - 4 * cos(sqrt(3) * sqrt(2) * pi)^3 + 2 * (cos(sqrt(3) * sqrt(2) * pi)^2 - 2 * cos(sqrt(3) * sqrt(2) * pi) + 1) * sin(sqrt(3) * sqrt(2) * pi)^2 + 6 * cos(sqrt(3) * sqrt(2) * pi)^2 - 4 * cos(sqrt(3) * sqrt(2) *pi) + 1)"
+Example: entering "SUM_rational_1(1/(n^2 - 3/2))" outputs "-3.0082248408742298898189201508281522147399096789435318883944" followed by "-1/3*(2*(sqrt(3)*sqrt(2)*pi*cos(sqrt(3)*sqrt(2)*pi) - sqrt(3)*sqrt(2)*pi)*cos(2*sqrt(3)*sqrt(2)*pi)*sin(sqrt(3)*sqrt(2)*pi) - (sqrt(3)*sqrt(2)*pi*cos(sqrt(3)*sqrt(2)*pi)^2 - sqrt(3)*sqrt(2)*pi*sin(sqrt(3)*sqrt(2)*pi)^2 - 2*sqrt(3)*sqrt(2)*pi*cos(sqrt(3)*sqrt(2)*pi) + sqrt(3)*sqrt(2)*pi)*sin(2*sqrt(3)*sqrt(2)*pi) - 2*(sqrt(3)*sqrt(2)*pi*cos(sqrt(3)*sqrt(2)*pi) - sqrt(3)*sqrt(2)*pi)*sin(sqrt(3)*sqrt(2)*pi))/(cos(sqrt(3)*sqrt(2)*pi)^4 + sin(sqrt(3)*sqrt(2)*pi)^4 - 4*cos(sqrt(3)*sqrt(2)*pi)^3 + 2*(cos(sqrt(3)*sqrt(2)*pi)^2 - 2*cos(sqrt(3)*sqrt(2)*pi) + 1)*sin(sqrt(3)*sqrt(2)*pi)^2 + 6*cos(sqrt(3)*sqrt(2)*pi)^2 - 4*cos(sqrt(3)*sqrt(2)*pi) + 1)"
 
 
 "difference_of_two(A, B)":
