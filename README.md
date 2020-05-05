@@ -70,7 +70,7 @@ B (False by default): Input "True" to display the approximate sum of each non-ne
 C (False by default): Input "True" to display the final sum in LaTeX (if your SageMath software supports LaTeX).  Otherwise, "False" displays the sum in standard text.  To input "True," type "tex = True" or include an explicit input for B.
 
 
-Example: entering "SUM_rational_1(1/(3 * n^3 + 1))" outputs "4/243 * sqrt(3) * pi^3."
+Example: entering "SUM_rational_1(1/(n^2 - 3/2))" outputs "-3.0082248408742298898189201508281522147399096789435318883944" followed by "-1/3 * (2 * (sqrt(3) * sqrt(2) * pi * cos(sqrt(3) * sqrt(2) * pi) - sqrt(3) * sqrt(2) * pi) * cos(2 * sqrt(3) * sqrt(2) * pi) * sin(sqrt(3) * sqrt(2) * pi) - (sqrt(3) * sqrt(2) * pi * cos(sqrt(3) * sqrt(2) * pi)^2 - sqrt(3) * sqrt(2) * pi * sin(sqrt(3) * sqrt(2) * pi)^2 - 2 * sqrt(3) * sqrt(2) * pi * cos(sqrt(3) * sqrt(2) * pi) + sqrt(3) * sqrt(2) * pi) * sin(2 * sqrt(3) * sqrt(2) * pi) - 2 * (sqrt(3) * sqrt(2) * pi * cos(sqrt(3) * sqrt(2) * pi) - sqrt(3) * sqrt(2) * pi) * sin(sqrt(3) * sqrt(2) * pi))/(cos(sqrt(3) * sqrt(2) * pi)^4 + sin(sqrt(3) * sqrt(2) * pi)^4 - 4 * cos(sqrt(3) * sqrt(2) * pi)^3 + 2 * (cos(sqrt(3) * sqrt(2) * pi)^2 - 2 * cos(sqrt(3) * sqrt(2) * pi) + 1) * sin(sqrt(3) * sqrt(2) * pi)^2 + 6 * cos(sqrt(3) * sqrt(2) * pi)^2 - 4 * cos(sqrt(3) * sqrt(2) *pi) + 1)"
 
 
 "difference_of_two(A, B)":
