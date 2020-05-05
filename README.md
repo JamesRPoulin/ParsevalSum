@@ -24,7 +24,7 @@ A (no default value): Input a number to compute the zeta value of that number, b
 B (False by default): Input "True" to display the value in LaTeX (if your SageMath software supports LaTeX).  Otherwise, "False" displays the value in standard text.
 
 
-Example: entering "exact_sum(4, True)" outputs "1/90 𝜋^4" in LaTeX format.
+Example: entering "SUM_zeta(4, True)" outputs "1/90 𝜋^4" in LaTeX format.
 
 
 "required_function(A, B, C)":
@@ -58,7 +58,7 @@ A (no default value): Input any rational function of n to find a list (linear co
 B (False by default): Input "True" to display the list in LaTeX (if your SageMath software supports LaTeX).  Otherwise, "False" displays the list in standard text.
 
 
-Example: entering "required_lin_comb(1/(3 * n^3 + 1)" outputs "[1/9/(n^6 + 2/3 * n^3 + 1/9), (1/3 * n^4 + 1/3 * n^3 + 1/3 * n^2)/(n^6 + 2/3 * n^3 + 1/9),  (-1/3 * n^4)/(n^6 + 2/3 * n^3 + 1/9),  (-1/3 * n^2)/(n^6 + 2/3 * n^3 + 1/9)]."
+Example: entering "required_lin_comb(1/(3 * n^3 + 1))" outputs "[1/9/(n^6 + 2/3 * n^3 + 1/9), (1/3 * n^4 + 1/3 * n^3 + 1/3 * n^2)/(n^6 + 2/3 * n^3 + 1/9),  (-1/3 * n^4)/(n^6 + 2/3 * n^3 + 1/9),  (-1/3 * n^2)/(n^6 + 2/3 * n^3 + 1/9)]."
 
 
 "SUM_rational_1(A, B, C)":
