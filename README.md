@@ -7,7 +7,7 @@ This SageMath code calculates the exact sum of an infinite series using Parseval
 To use this file, enter the code within a SageMath cell.  The use can use following list of functions for the calculation.  Within this list, a function's name is in quotes, as well as its parameters A, B, C.  Each parameter is described below the function.  Some parameters have a default value, meaning providing no input into the parameter yields the pre-assigned value automatically.
 
 
-"required_function_zeta(A, B)"
+"required_function_zeta(A, B)":
 
 A (no default value): Input a number determine the function of x such that the sum of |f-hat(n)|^2 over the integers is equal to the integral of |f(x)|^2 over [0,1], but only positive even integers are able to be handled.
 
@@ -17,7 +17,7 @@ B (False by default): Input "True" to display the function in LaTeX (if your Sag
 Example: entering "required_function_zeta(2)" outputs "-2 * I * pi * x."
 
 
-"SUM_zeta(A, B)"
+"SUM_zeta(A, B)":
 
 A (no default value): Input a number to compute the zeta value of that number, but only positive even integers are able to be handled.
 
@@ -27,7 +27,7 @@ B (False by default): Input "True" to display the value in LaTeX (if your SageMa
 Example: entering "exact_sum(4, True)" outputs "1/90 𝜋^4" in LaTeX format.
 
 
-"required_function(A, B, C)"
+"required_function(A, B, C)":
 
 A (no default value): Input a rational function of n to determine the function f such that the sum of |f-hat(n)|^2 over the integers is equal to the integral of |f(x)|^2 over [0,1], but only non-negative or non-positive rational expressions can be handled.
 
@@ -39,7 +39,7 @@ C (False by default): Input "True" to display the function in LaTeX (if your Sag
 Example: entering "required_function(1/(n^2 + 1), True, True)" outputs the function "−(2𝑖𝜋𝑒^(2𝜋𝑥)) / (𝑒(2𝜋)−1)" in LaTeX format.
 
 
-"SUM(A, B, C)"
+"SUM(A, B, C)":
 
 A (no default value): Input a rational function of n to compute its sum over the integers, but only non-negative or non-positive rational expressions can be handled.
 
@@ -51,7 +51,7 @@ C (False by default): Input "True" to display the sum in LaTeX (if your SageMath
 Example: entering "SUM(1/(n^2 + 1))" outputs "3.1533480949371623482681015895000009808913125328076333311501" followed by "pi * (e^(2 * pi) + 1) / (e^(2 * pi) - 1)."
 
 
-"required_lin_comb(A, B)"
+"required_lin_comb(A, B)":
 
 A (no default value): Input any rational function of n to find a list (linear combination) of non-negative and non-positive rational functions equivalent to the input when added together.
 
@@ -61,7 +61,7 @@ B (False by default): Input "True" to display the list in LaTeX (if your SageMat
 Example: entering "required_lin_comb(1/(3 * n^3 + 1)" outputs "[1/9/(n^6 + 2/3 * n^3 + 1/9), (1/3 * n^4 + 1/3 * n^3 + 1/3 * n^2)/(n^6 + 2/3 * n^3 + 1/9),  (-1/3 * n^4)/(n^6 + 2/3 * n^3 + 1/9),  (-1/3 * n^2)/(n^6 + 2/3 * n^3 + 1/9)]."
 
 
-"SUM_rational_1(A, B, C)"
+"SUM_rational_1(A, B, C)":
 
 A (no default value): Input any rational function of n to find its sum over the integers.
 
@@ -73,7 +73,7 @@ C (False by default): Input "True" to display the final sum in LaTeX (if your Sa
 Example: entering "SUM_rational_1(1/(3 * n^3 + 1))" outputs "4/243 * sqrt(3) * pi^3."
 
 
-"difference_of_two(A, B)"
+"difference_of_two(A, B)":
 
 A (no default value): Input any rational function of n to find a non-negative rational functions and a non-positive rational function whose sum is equivalent to the input.
 
@@ -83,7 +83,7 @@ B (False by default): Input "True" to display the two rational functions in LaTe
 Example: entering "difference_of_two(1/(n^3 + 2))" outputs "[(n^4 + n^3 + n^2 + 2)/(n^6 + 4 * n^3 + 4), (-n^4 - n^2)/(n^6 + 4 * n^3 + 4)]."
 
 
-"SUM_rational_2(A, B, C)"
+"SUM_rational_2(A, B, C)":
 
 A (no default value): Input any rational function of n to find its sum over the integers.
 
